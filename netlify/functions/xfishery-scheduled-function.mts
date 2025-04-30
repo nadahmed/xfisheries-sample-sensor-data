@@ -9,7 +9,6 @@ interface SensorData {
   Ammonia: number;
 }
 
-// Device access tokens (store these in Netlify environment variables)
 const DEVICE_TOKENS = {
   TEMPERATURE: process.env.TB_TEMP_TOKEN,
   DO: process.env.TB_DO_TOKEN,
@@ -17,62 +16,82 @@ const DEVICE_TOKENS = {
   AMMONIA: process.env.TB_AMMONIA_TOKEN
 };
 
-const THINGSBOARD_URL = 'http://demo.thingsboard.io/api/v1';
+const THINGSBOARD_URL = 'https://thingsboard.cloud/api/v1';
+
+// Convert HH:MM:SS to total minutes
+const timeToMinutes = (time: string): number => {
+  const [hours, minutes] = time.split(':').map(Number);
+  return hours * 60 + minutes;
+};
 
 export default async (req: Request) => {
     const { next_run } = await req.json()
 
     console.log("Received event! Next invocation at:", next_run)
-  try {
-    // Get current time in HH:MM:SS format (adjust timezone if needed)
-    const now = new Date();
-    const currentTime = now.toLocaleTimeString('en-US', {
-      hour12: false,
-      hour: '2-digit',
-      minute: '2-digit',
-      second: '2-digit'
-    });
+    try {
+        const now = new Date();
+        const currentTime = now.toLocaleTimeString('en-US', {
+            hour12: false,
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit'
+        });
 
-    // Find matching data entry
-    const entry = (data as SensorData[]).find(item => item.Time === currentTime);
-    
-    if (!entry) {
-      return { statusCode: 404, body: 'No data found for current time' };
-    }
+        const currentMinutes = timeToMinutes(currentTime);
+        const entries = data as SensorData[];
 
-    // Prepare payloads for each device
-    const requests = [
-      {
-        token: DEVICE_TOKENS.TEMPERATURE,
-        payload: { temperature: entry.Temperature }
-      },
-      {
-        token: DEVICE_TOKENS.DO,
-        payload: { do: entry.DO }
-      },
-      {
-        token: DEVICE_TOKENS.PH,
-        payload: { ph: entry.pH }
-      },
-      {
-        token: DEVICE_TOKENS.AMMONIA,
-        payload: { ammonia: entry.Ammonia }
-      }
+        // Find the closest next entry
+        let closestEntry: SensorData | undefined;
+        let smallestDiff = Infinity;
+
+        entries.forEach(entry => {
+        const entryMinutes = timeToMinutes(entry.Time);
+        let diff = entryMinutes - currentMinutes;
+        
+        // Handle midnight wrap-around
+        if (diff < 0) diff += 1440;  // 1440 minutes = 24 hours
+        
+        // Find the smallest non-negative difference
+        if (diff < smallestDiff) {
+            smallestDiff = diff;
+            closestEntry = entry;
+        }
+        });
+
+        if (!closestEntry) {
+            return;
+        }
+
+        // Prepare payloads
+        const requests = [
+        {
+            token: DEVICE_TOKENS.TEMPERATURE,
+            payload: { temperature: closestEntry.Temperature }
+        },
+        {
+            token: DEVICE_TOKENS.DO,
+            payload: { do: closestEntry.DO }
+        },
+        {
+            token: DEVICE_TOKENS.PH,
+            payload: { ph: closestEntry.pH }
+        },
+        {
+            token: DEVICE_TOKENS.AMMONIA,
+            payload: { ammonia: closestEntry.Ammonia }
+        }
     ];
 
-    // Send data to ThingsBoard
+    // Send data
     const responses = await Promise.all(
       requests.map(({ token, payload }) => 
         axios.post(`${THINGSBOARD_URL}/${token}/telemetry`, payload)
       )
     );
 
-    return {
-      statusCode: 200,
-      body: JSON.stringify({ message: 'Data sent successfully', responses: responses.map(r => r.status) })
-    };
+    return;
   } catch (error) {
     console.error('Error:', error);
-    return { statusCode: 500, body: JSON.stringify({ error: 'Internal server error' }) };
+    return;
   }
 };
