@@ -16,7 +16,7 @@ const DEVICE_TOKENS = {
   AMMONIA: process.env.TB_AMMONIA_TOKEN
 };
 
-const THINGSBOARD_URL = 'https://thingsboard.cloud/api/v1';
+const THINGSBOARD_URL = 'https://demo.thingsboard.io/api/v1';
 
 // Convert HH:MM:SS to total minutes
 const timeToMinutes = (time: string): number => {
