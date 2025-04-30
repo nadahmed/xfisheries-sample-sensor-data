@@ -1,0 +1,24 @@
+{
+  "name": "xfisheries-sample-sensor-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nadahmed/xfisheries-sample-sensor-data.git",
+  "author": "Noor A. <nooraldinahmed@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@netlify/functions": "^3.1.2",
+    "axios": "^1.9.0",
+    "typescript": "^5.8.3",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "convert": "ts-node xlsx_to_json.ts",
+    "build": "netlify-lambda build src",
+    "start": "netlify-lambda serve src",
+    "deploy": "netlify deploy --prod"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "ts-node": "^10.9.2"
+  }
+}

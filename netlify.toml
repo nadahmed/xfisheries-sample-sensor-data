@@ -1,0 +1,2 @@
+[functions."xfishery-scheduled-function"]
+    schedule = "*/15 * * * *"

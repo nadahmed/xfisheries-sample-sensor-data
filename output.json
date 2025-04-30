@@ -1,0 +1,674 @@
+[
+  {
+    "Time": "06:00:00",
+    "Temperature": 25.5,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "06:15:00",
+    "Temperature": 25.6,
+    "DO": 1.4,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "06:30:00",
+    "Temperature": 25.8,
+    "DO": 1.6,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "06:45:00",
+    "Temperature": 26,
+    "DO": 1.8,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "07:00:00",
+    "Temperature": 26.3,
+    "DO": 2,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "07:15:00",
+    "Temperature": 26.5,
+    "DO": 2.3,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "07:30:00",
+    "Temperature": 26.8,
+    "DO": 2.6,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "07:45:00",
+    "Temperature": 27,
+    "DO": 2.8,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "08:00:00",
+    "Temperature": 27.3,
+    "DO": 3,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "08:15:00",
+    "Temperature": 27.5,
+    "DO": 3.3,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "08:30:00",
+    "Temperature": 27.8,
+    "DO": 3.5,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "08:45:00",
+    "Temperature": 28,
+    "DO": 3.7,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "09:00:00",
+    "Temperature": 28.3,
+    "DO": 3.8,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "09:15:00",
+    "Temperature": 28.5,
+    "DO": 4,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "09:30:00",
+    "Temperature": 28.8,
+    "DO": 4.2,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "09:45:00",
+    "Temperature": 29,
+    "DO": 4.4,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "10:00:00",
+    "Temperature": 29.3,
+    "DO": 4.6,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "10:15:00",
+    "Temperature": 29.5,
+    "DO": 4.7,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "10:30:00",
+    "Temperature": 29.8,
+    "DO": 4.8,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "10:45:00",
+    "Temperature": 30,
+    "DO": 4.9,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "11:00:00",
+    "Temperature": 30.2,
+    "DO": 5,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "11:15:00",
+    "Temperature": 30.3,
+    "DO": 5.1,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "11:30:00",
+    "Temperature": 30.4,
+    "DO": 5.2,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "11:45:00",
+    "Temperature": 30.5,
+    "DO": 5.3,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "12:00:00",
+    "Temperature": 30.5,
+    "DO": 5.4,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "12:15:00",
+    "Temperature": 30.4,
+    "DO": 5.6,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "12:30:00",
+    "Temperature": 30.3,
+    "DO": 5.8,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "12:45:00",
+    "Temperature": 30.2,
+    "DO": 6,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "13:00:00",
+    "Temperature": 30,
+    "DO": 6.2,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "13:15:00",
+    "Temperature": 29.8,
+    "DO": 6.3,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "13:30:00",
+    "Temperature": 29.6,
+    "DO": 6.4,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "13:45:00",
+    "Temperature": 29.4,
+    "DO": 6.5,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "14:00:00",
+    "Temperature": 29.2,
+    "DO": 6.6,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "14:15:00",
+    "Temperature": 29,
+    "DO": 6.7,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "14:30:00",
+    "Temperature": 28.8,
+    "DO": 6.8,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "14:45:00",
+    "Temperature": 28.6,
+    "DO": 6.9,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "15:00:00",
+    "Temperature": 28.4,
+    "DO": 7,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "15:15:00",
+    "Temperature": 28.2,
+    "DO": 7.1,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "15:30:00",
+    "Temperature": 28,
+    "DO": 7.2,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "15:45:00",
+    "Temperature": 27.8,
+    "DO": 7.3,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "16:00:00",
+    "Temperature": 27.6,
+    "DO": 7.4,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "16:15:00",
+    "Temperature": 27.4,
+    "DO": 7.5,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "16:30:00",
+    "Temperature": 27.2,
+    "DO": 7.6,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "16:45:00",
+    "Temperature": 27,
+    "DO": 7.7,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "17:00:00",
+    "Temperature": 26.8,
+    "DO": 7.8,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "17:15:00",
+    "Temperature": 26.6,
+    "DO": 7.9,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "17:30:00",
+    "Temperature": 26.4,
+    "DO": 8,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "17:45:00",
+    "Temperature": 26.2,
+    "DO": 8,
+    "pH": 7.3,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "18:00:00",
+    "Temperature": 26,
+    "DO": 8,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "18:15:00",
+    "Temperature": 25.8,
+    "DO": 7.8,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "18:30:00",
+    "Temperature": 25.6,
+    "DO": 7.6,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "18:45:00",
+    "Temperature": 25.5,
+    "DO": 7.4,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "19:00:00",
+    "Temperature": 25.4,
+    "DO": 7.2,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "19:15:00",
+    "Temperature": 25.3,
+    "DO": 6.9,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "19:30:00",
+    "Temperature": 25.2,
+    "DO": 6.6,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "19:45:00",
+    "Temperature": 25.1,
+    "DO": 6.3,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "20:00:00",
+    "Temperature": 25,
+    "DO": 6,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "20:15:00",
+    "Temperature": 24.9,
+    "DO": 5.7,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "20:30:00",
+    "Temperature": 24.8,
+    "DO": 5.4,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "20:45:00",
+    "Temperature": 24.7,
+    "DO": 5.1,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "21:00:00",
+    "Temperature": 24.6,
+    "DO": 4.8,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "21:15:00",
+    "Temperature": 24.5,
+    "DO": 4.5,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "21:30:00",
+    "Temperature": 24.4,
+    "DO": 4.2,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "21:45:00",
+    "Temperature": 24.3,
+    "DO": 3.9,
+    "pH": 7.1,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "22:00:00",
+    "Temperature": 24.2,
+    "DO": 3.6,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "22:15:00",
+    "Temperature": 24.1,
+    "DO": 3.3,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "22:30:00",
+    "Temperature": 24,
+    "DO": 3,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "22:45:00",
+    "Temperature": 23.9,
+    "DO": 2.7,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "23:00:00",
+    "Temperature": 23.8,
+    "DO": 2.4,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "23:15:00",
+    "Temperature": 23.7,
+    "DO": 2.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "23:30:00",
+    "Temperature": 23.6,
+    "DO": 2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "23:45:00",
+    "Temperature": 23.5,
+    "DO": 1.8,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "00:00:00",
+    "Temperature": 23.4,
+    "DO": 1.6,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "00:15:00",
+    "Temperature": 23.3,
+    "DO": 1.5,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "00:30:00",
+    "Temperature": 23.2,
+    "DO": 1.4,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "00:45:00",
+    "Temperature": 23.1,
+    "DO": 1.3,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "01:00:00",
+    "Temperature": 23,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "01:15:00",
+    "Temperature": 22.9,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "01:30:00",
+    "Temperature": 22.8,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "01:45:00",
+    "Temperature": 22.7,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "02:00:00",
+    "Temperature": 22.6,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "02:15:00",
+    "Temperature": 22.5,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "02:30:00",
+    "Temperature": 22.4,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "02:45:00",
+    "Temperature": 22.3,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "03:00:00",
+    "Temperature": 22.2,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "03:15:00",
+    "Temperature": 22.1,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "03:30:00",
+    "Temperature": 22,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "03:45:00",
+    "Temperature": 21.9,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "04:00:00",
+    "Temperature": 21.8,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "04:15:00",
+    "Temperature": 21.7,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "04:30:00",
+    "Temperature": 21.6,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "04:45:00",
+    "Temperature": 21.5,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "05:00:00",
+    "Temperature": 21.4,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "05:15:00",
+    "Temperature": 21.3,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "05:30:00",
+    "Temperature": 21.2,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  },
+  {
+    "Time": "05:45:00",
+    "Temperature": 21.1,
+    "DO": 1.2,
+    "pH": 7,
+    "Ammonia": 0.1
+  }
+]
