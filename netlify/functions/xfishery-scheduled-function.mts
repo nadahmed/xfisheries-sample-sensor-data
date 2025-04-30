@@ -17,6 +17,7 @@ const DEVICE_TOKENS = {
 };
 
 const THINGSBOARD_URL = 'https://demo.thingsboard.io/api/v1';
+const DHAKA_OFFSET = 6 * 60 * 60 * 1000; // UTC+6 in milliseconds
 
 // Convert HH:MM:SS to total minutes
 const timeToMinutes = (time: string): number => {
@@ -24,19 +25,20 @@ const timeToMinutes = (time: string): number => {
   return hours * 60 + minutes;
 };
 
+// Get current Dhaka time in HH:MM:SS format
+const getDhakaTime = (): string => {
+    const now = new Date();
+    const dhakaTime = new Date(now.getTime() + DHAKA_OFFSET);
+    
+    return dhakaTime.toISOString().substring(11, 19); // Extracts HH:MM:SS
+  };
+
 export default async (req: Request) => {
     const { next_run } = await req.json()
 
     console.log("Received event! Next invocation at:", next_run)
     try {
-        const now = new Date();
-        const currentTime = now.toLocaleTimeString('en-US', {
-            hour12: false,
-            hour: '2-digit',
-            minute: '2-digit',
-            second: '2-digit'
-        });
-
+        const currentTime = getDhakaTime();
         const currentMinutes = timeToMinutes(currentTime);
         const entries = data as SensorData[];
 
