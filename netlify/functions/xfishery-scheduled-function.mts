@@ -17,7 +17,7 @@ const DEVICE_TOKENS = {
   AMMONIA: process.env.TB_AMMONIA_TOKEN
 };
 
-const THINGSBOARD_URL = 'https://thingsboard.cloud/api/v1';
+const THINGSBOARD_URL = 'http://demo.thingsboard.io/api/v1';
 
 export default async (req: Request) => {
     const { next_run } = await req.json()
